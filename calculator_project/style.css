@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #000; /* Set background to black */
+    background-color: #000; 
 }
 h1{
 
@@ -14,9 +14,9 @@ h1{
 }
 
 .calculator {
-    background-color: #222; /* Darker background for the calculator */
+    background-color: #222; 
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2); /* Softer white shadow */
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2); 
     padding: 20px;
     width: 300px;
 }
@@ -24,8 +24,8 @@ h1{
 #result {
     width: 100%;
     height: 50px;
-    background-color: #333; /* Darker background for result display */
-    color: #fff; /* White text for contrast */
+    background-color: #333; 
+    color: #fff; 
     border: none;
     text-align: right;
     font-size: 1.5em;
@@ -44,66 +44,66 @@ button {
     padding: 20px;
     font-size: 1.2em;
     border: none;
-    background-color: #444; /* Slightly darker button background */
-    color: #fff; /* White text for better contrast */
+    background-color: #444; 
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #666; /* Lighter color on hover */
+    background-color: #666; 
 }
 
-/* Style for the clear button (C) */
+
 button:nth-child(1) {
-    background-color: #ff4c4c; /* Red for clear */
+    background-color: #ff4c4c; 
 }
 
 button:nth-child(1):hover {
-    background-color: #ff6b6b; /* Lighter red on hover */
+    background-color: #ff6b6b; 
 }
 
-/* Style for the DEL button */
+
 button:nth-child(2) {
-    background-color: #ffaf00; /* Orange for DEL */
+    background-color: #ffaf00; 
 }
 
 button:nth-child(2):hover {
-    background-color: #ffc400; /* Lighter orange on hover */
+    background-color: #ffc400; 
 }
 
-/* Style for the equal button (=) */
+
 button:nth-child(16) {
-    background-color: #4CAF50; /* Green for equals */
+    background-color: #4CAF50;
     color: white;
 }
 
 button:nth-child(16):hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
 
-/* Style for operators */
+
 button:nth-child(3), button:nth-child(4), button:nth-child(8), button:nth-child(12) {
-    background-color: #007bff; /* Blue for operators */
+    background-color: #007bff; 
 }
 
 button:nth-child(3):hover, button:nth-child(4):hover, button:nth-child(8):hover, button:nth-child(12):hover {
-    background-color: #3399ff; /* Lighter blue on hover */
+    background-color: #3399ff; 
 }
 
-/* Style for digits */
+
 button:nth-child(5), button:nth-child(6), button:nth-child(7),
 button:nth-child(9), button:nth-child(10), button:nth-child(11),
 button:nth-child(13), button:nth-child(14), button:nth-child(15),
 button:nth-child(17), button:nth-child(18) {
-    background-color: #555; /* Darker gray for digits */
+    background-color: #555;
 }
 
 button:nth-child(5):hover, button:nth-child(6):hover, button:nth-child(7):hover,
 button:nth-child(9):hover, button:nth-child(10):hover, button:nth-child(11):hover,
 button:nth-child(13):hover, button:nth-child(14):hover, button:nth-child(15):hover,
 button:nth-child(17):hover, button:nth-child(18):hover {
-    background-color: #777; /* Lighter gray on hover */
+    background-color: #777; 
 }
 
